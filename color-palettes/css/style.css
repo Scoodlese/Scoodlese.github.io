@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#palette1-heading {
+    font-family: cursive;
+    text-align: center;
+}
+
+#palette1-c1 {
+    background-color: #98B06f;
+    text-align: center;
+    font-family: cursive;
+    color: black;
+    padding: 24px;
+}
+#palette1-c2 {
+    background-color: #B6dc76;
+    text-align: center;
+    font-family: cursive;
+    color: black;
+    padding: 24px;
+}
+#palette1-c3 {
+    text-align: center;
+    font-family: cursive;
+    color: black;
+    padding: 24px;
+    background-color: #DBFF76;
+}
+
+#palette2-heading {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#palette2-c1 {
+    background-color: #2589BD;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 24px;
+}
+#palette2-c2 {
+    background-color: #187795;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 24px;
+}
+#palette2-c3 {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 24px;
+    background-color: #0a2463;
+}
+#palette3-heading {
+    text-align: center;
+    font-family:monospace;
+}
+#palette3-c1 {
+    background-color: #7d84b2;
+    text-align: center;
+    font-family:monospace;
+    color: rgb(60, 36, 179);
+    padding: 24px;
+}
+#palette3-c2 {
+    background-color: #8e9dcc;
+    text-align: center;
+    font-family:monospace;
+    color: rgb(60, 36, 179);
+    padding: 24px;
+}
+#palette3-c3 {
+    text-align: center;
+    font-family:monospace;
+    color: rgb(60, 36, 179);
+    padding: 24px;
+    background-color: #d9dbf1;
+}
