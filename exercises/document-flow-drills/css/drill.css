@@ -26,11 +26,9 @@
 
 /* Drill 6 - Write your code solution below */
 
-.d6-div2 {
-    display: inline-block;
-}
-
 #d6-div2,
-#d6-div3 {
-    width: 48%;
+#d6-div3
+{
+display: inline-block;
+width: 48%;
 }
