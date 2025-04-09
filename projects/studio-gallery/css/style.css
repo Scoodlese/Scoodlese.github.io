@@ -1,0 +1,42 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+#one {
+    width: 100px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border: 10px solid rgb(51, 28, 12);
+    padding: 8px;
+    background-color: bisque;
+}
+#two {
+    width: 80px;
+    margin-top: 130px;
+    border: 10px solid rgb(75, 42, 57);
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgb(54, 15, 35);
+
+}
+#three {
+    width: 120px;
+    margin-top: 60px;
+    border: 5px solid rgb(108, 103, 59);
+    padding: px;
+    border-radius: 10%;
+    margin-left: 50px;
+}
+.text {
+    border: 5px solid rgb(45, 37, 32);
+    background-color: rgb(66, 48, 48);
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    margin-top: 200px;
+    margin-right: 5px;
+
+}
