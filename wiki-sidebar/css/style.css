@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-colums {
+    display: flex;
+}
+
+#sidebar {
+    background-color: whitesmoke;
+    flex
+    width: 0px;
+    padding: 15px;
+
+}
+
+#sidebar h2 {
+    background-color: #ea60d6;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    margin: 10px;
+}
+
+#main-content {
+    background-color: rgb(255, 254, 254);
+    flex: 1;
+    margin: 10px;
+    display: inline-block;
+}
