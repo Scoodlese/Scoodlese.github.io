@@ -26,6 +26,7 @@ body {
     background-color: rgb(255, 204, 241);
     grid-area: sidebar;
     padding: 0px 24px;
+    border-right: 2px solid pink;
 }
 
 #main {
