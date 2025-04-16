@@ -23,10 +23,10 @@ body {
 }
 
 #sidebar {
-    background-color: rgb(255, 204, 241);
+    background-color: rgb(250, 214, 240);
     grid-area: sidebar;
     padding: 0px 22px;
-    border-right: 2px solid pink;
+    border-right: 2px solid rgb(207, 123, 164);
 }
 
 #main {
@@ -43,6 +43,7 @@ body {
 
 #header #you {
     color: #140610;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 #header #tube {
@@ -50,6 +51,8 @@ body {
     background-color: rgba(167, 99, 99, 0.573);
     padding: 4px;
     border-radius: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #sidebar ul {
@@ -64,6 +67,7 @@ body {
     color: black;
     display: block;
     padding: 12px;
+    font-family:monospace
 }
 
 #sidebar ul a:hover {
@@ -79,8 +83,13 @@ body {
     margin-top: 10px;
     margin-left: 19px;
     width: 450px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+.video-channel {
+    font-family: cursive;
+    margin-bottom: 5px;
+}
 .youtube-item .thumbnail-placeholder {
     aspect-ratio: 16 / 9;
     border: 5px solid  rgb(92, 46, 81);
@@ -96,5 +105,41 @@ body {
     height: 250px;
     border-radius: 40px;
     flex-wrap: wrap;
+}
+
+#nate {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+#Boffy {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+#mel {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+#jub {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+#sleep {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+#broski {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
 }
 
