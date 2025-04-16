@@ -30,8 +30,11 @@ body {
 }
 
 #main {
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(149, 78, 133);
     grid-area: main;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
 }
 
 #header a {
@@ -44,7 +47,7 @@ body {
 
 #header #tube {
     color: white;
-    background-color: rgba(138, 58, 58, 0.573);
+    background-color: rgba(167, 99, 99, 0.573);
     padding: 4px;
     border-radius: 12px;
 }
@@ -67,4 +70,17 @@ body {
     background-color: #e19fcd;
     border-radius: 15px;
     border: 2px dotted rgb(92, 82, 89);
+}
+
+.youtube-item {
+    flex: 250px;
+    margin-right: 30px;
+    margin-bottom: 24px;
+    margin-top: 15px;
+}
+
+.youtube-item .thumbnail-placeholder {
+    aspect-ratio: 16 / 9;
+    background: radial-gradient(at top left,rgb(206, 173, 206), pink);
+    border-radius: 20px;
 }
