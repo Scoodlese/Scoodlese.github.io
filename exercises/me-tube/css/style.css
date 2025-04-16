@@ -11,8 +11,8 @@ body {
     display: grid;
     grid-template-columns: 250px 1fr;
     grid-template-areas:
-    "header header"
-    "sidebar main";
+        "header header"
+        "sidebar main";
 }
 
 #header {
@@ -43,7 +43,12 @@ body {
 
 #header #you {
     color: #140610;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:
+        'Gill Sans', 
+        'Gill Sans MT',
+        Calibri, 
+        'Trebuchet MS', 
+        sans-serif;
 }
 
 #header #tube {
@@ -51,8 +56,14 @@ body {
     background-color: rgba(167, 99, 99, 0.573);
     padding: 4px;
     border-radius: 12px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:
+        'Lucida Sans',
+        'Lucida Sans Regular', 
+        'Lucida Grande', 
+        'Lucida Sans Unicode',
+        Geneva, 
+        Verdana, 
+        sans-serif;
 }
 
 #sidebar ul {
@@ -67,7 +78,7 @@ body {
     color: black;
     display: block;
     padding: 12px;
-    font-family:monospace
+    font-family: monospace;
 }
 
 #sidebar ul a:hover {
@@ -83,7 +94,14 @@ body {
     margin-top: 10px;
     margin-left: 19px;
     width: 450px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:
+        'Lucida Sans',
+        'Lucida Sans Regular',
+        'Lucida Grande',
+        'Lucida Sans Unicode', 
+        Geneva, 
+        Verdana,
+        sans-serif;
 }
 
 .video-channel {
@@ -142,4 +160,3 @@ body {
     height: 30px;
     border-radius: 100px;
 }
-
