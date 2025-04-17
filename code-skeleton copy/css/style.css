@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#page-layout {
+    display: flex;
+    display: grid;
+    grid-template-columns: 150px 900px 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#column-one {
+    background-color: white;
+    width: 15px;
+}
+#column-two {
+    flex: 1;
+}
+
+#column-three {
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    color: black;
+    display: block;
+    padding: 12px;
+}
+
+.mini {
+    align-items: center;
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 20%;
+    list-style-type: none;
+}
+
+#mini3 {
+    border: 3px solid black;
+    width: 100px;
+}
+
+#header a {
+    text-decoration: none;
+    margin-left: 140px;
+    
+}
+
+#header #m {
+    color: #ff00c8;
+}
+
+#header #e {
+    color: #ff0000;
+}
+
+#header #b {
+    color: rgb(34, 0, 255);
+}
+
+#header #a {
+    color: rgb(255, 221, 0);
+}
+
+#header #y {
+    color: rgb(68, 255, 0);
+}
+
+#header {
+    letter-spacing: -5px;
+    font-size: 20px;
+}
+
+#main {
+    width: 800px;
+    border-radius: 30px;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+#yonna {
+    width: 30px;
+    border-radius: 100px;
+    height: 30px;
+}
+
+#other {
+    padding-top: 5px;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+#price {
+    margin-bottom: -20px;
+}
+#offer {
+    color: grey;
+    padding-bottom: 10px;
+}
+
+#info {
+    color: grey;
+}
