@@ -74,3 +74,12 @@ margin-top: -25px;
     margin-bottom: 12px;
     margin-top: 12px;
 }
+
+#pokemon-card-3 {
+    background: linear-gradient(to bottom, rgb(245, 122, 33), rgb(216, 62, 27), rgb(255, 64, 0));
+
+}
+
+#pokemon-card-4 {
+    background: linear-gradient(to bottom, rgb(52, 172, 220), rgb(9, 181, 255), rgb(0, 213, 255));
+}
