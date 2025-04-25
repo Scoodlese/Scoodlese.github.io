@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Eagle+Lake&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -5,4 +6,117 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(55, 32, 18);
+}
+
+.navbar {
+    background-color: rgb(213, 191, 164);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    margin: 25px;
+    text-decoration: none;
+    color: rgb(55, 32, 18);
+    font-family: "Crimson Text", serif;
+    font-size: 25px;
+    font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#hero {
+    background-image: url("../images/5.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+#hero a {
+    font-size: 14px;
+    background-color: rgb(59, 32, 18);
+    color: rgb(213, 191, 164);
+    text-decoration: none;
+    padding: 20px 50px;
+    position: absolute;
+    bottom:30%;
+    font-size: 25px;
+    font-weight: 2;
+    border-radius: 20px;
+    margin-left: 830px;
+    font-family: "Crimson Text", serif;
+}
+
+#hero h1 {
+    color: rgb(213, 191, 164);
+    font-size: 90px;
+    margin-bottom: 350px;
+    margin-left: 830px;
+    font-family: "Eagle Lake", serif;
+    box-shadow: 4px 4px 20px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.gall {
+    color: rgb(213, 191, 164);
+    text-align: center;
+    font-size: 50px;
+    font-family: "Crimson Text", serif;
+    margin-top: -50px;
+}
+
+.gallery {
+    columns: 3;
+    column-gap: 1px;
+    background-color: rgba(0, 0, 0, 0.322);
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 10px solid rgb(213, 191, 164);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    margin-bottom: 2px;
+    padding: 25px 25px 25px 25px;
+}
+
+.cards {    
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.card {
+    flex: 1;
+    border: 3px solid rgb(213, 191, 164);
+    padding: 30px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #00000049;
+    box-shadow: inset 0px 0px 20px 1px rgb(0, 0, 0);
+    font-size: 40px;
+    color: rgb(213, 191, 164);
+    font-family: "Crimson Text", serif;
+}
+
+.card a {
+    font-size: 30px;
+    color: rgb(213, 191, 164);
+}
+
+.card h3 {
+    margin-top: -5px;
 }
