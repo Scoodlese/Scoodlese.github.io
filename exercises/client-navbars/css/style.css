@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=DynaPuff:wght@400..700&family=Metal+Mania&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar-top3 {
+    text-align: center;
+    background-color: rgb(86, 1, 1);
+    color: white;
+    width: 100%;
+    padding: 5px;
+}
+
+#navbar-top3 h7 {
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content-column3 {
+    width: 100%;
+    margin: 0% auto;
+}
+
+#navbar-middle3 {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), #b80707);
+}
+
+#navbar-middle3 .content-column3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+#navbar-middle3 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#navbar-middle3 .content-column3 div a {
+    padding: 50px;
+}
+
+#navbar-middle3 #name3 {
+    color: white;
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10%;
+    font-size: 40px;
+}
+
+#navbar-middle3 #linkspart1-3 {
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navbar-middle3 .cta-button3 {
+    background-color: white;
+    border: 5px solid black;
+    color: rgb(86, 1, 1);
+    border-radius: 30px;
+    padding: 7px 5px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 120px;
+    text-align: center;
+    margin-right: 100px;
+    font-family: "Metal Mania", system-ui;
+    font-size: 25px;
+    font-style: normal;
+}
+
+#navbar-bottom3 {
+    background-color: rgb(86, 1, 1);
+}
+
+#navbar-bottom3 .content-column3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom3 a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+#navbar1 {
+    background: linear-gradient(to bottom, rgb(77, 43, 2), #3e1a02);
+}
+
+#navbar1 .content-column1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+#navbar1 a {
+    color: rgb(101, 209, 23);
+    font-size: 20px;
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 280px;
+    margin-left: -100px;
+    font-size: 30px;
+}
+
+#navbar1 #name1 {
+    color: rgb(101, 209, 23);
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 20%;
+    font-size: 50px;
+}
+
+.content-column2 {
+    width: 100%;
+    margin: 0% auto;
+}
+
+#navbar-2 {
+    background: linear-gradient(to bottom, rgb(254, 249, 98), #b8a307);
+}
+
+#navbar-2 .content-column2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+#navbar-2 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+#navbar-2 .content-column2 div a {
+    padding: 50px;
+}
+
+#navbar-2 #name2 {
+    color: white;
+    font-family: "DynaPuff", system-ui;
+    margin-left: 10%;
+    font-size: 50px;
+}
+
+#navbar-2 #linkspart1-2 {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 30px;
+}
+
+#navbar-2 .cta-button2 {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 153, 0);
+    color: rgb(255, 153, 0);
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 30px;
+    font-weight: bold;
+    min-width: 120px;
+    text-align: center;
+    margin-right: 100px;
+    font-family: "DynaPuff", system-ui;
+}
