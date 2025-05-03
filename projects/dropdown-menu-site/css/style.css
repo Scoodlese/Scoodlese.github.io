@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Henny+Penny&family=Kanchenjunga:wght@400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #10b82f,#066324);
+    display: flex;
+    align-items: center;
+}
+    
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+    
+#navbar a:hover {
+    background: linear-gradient(to top, #39f30f,#278405);
+}
+    
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+    
+.dropdown-container {
+        position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+    opacity 0.25s,
+    visibility 0.25s;
+}
+    
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.dropdown-menu a {
+    background-color: rgb(50, 50, 50);width: 100%;min-width: 200px;
+}
+#navbar .dropdown-menu a:hover {
+    background: rgb(56, 225, 13);
+}
+
+#goals {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.navwords {
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.hero {
+    background-image: url(../images/Alien.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+.herowords {
+    font-size: 20px;
+    display: inline-block;
+    background-color: #9999996a;
+    color: rgb(6, 255, 60);
+    padding: 40px;
+    position: absolute;
+    left: 5%;
+    bottom: 30%;
+    text-align: center;
+    border-radius: 40px;
+}
+
