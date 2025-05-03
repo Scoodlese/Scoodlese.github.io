@@ -7,9 +7,9 @@ body {
     margin: 0px;
     font-family: sans-serif;
     background-image: url(../images/background.jpg);
-    height: 100vh;
+    height: 130vh;
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
 }
 
 #navbar {
@@ -51,6 +51,10 @@ body {
     transition: 
     opacity 0.25s,
     visibility 0.25s;
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
 }
     
 .dropdown-container:hover .dropdown-menu {
@@ -82,21 +86,48 @@ body {
 }
 
 .hero {
-    background-image: url(../images/Alien.jpg);
+    background-image: url(../images/thumb-1920-352214.jpg);
     background-size: cover;
     background-position: center;
     height: 70vh;
+
 }
+
 .herowords {
     font-size: 20px;
     display: inline-block;
-    background-color: #9999996a;
+    background-color: #07560c6a;
     color: rgb(6, 255, 60);
     padding: 40px;
     position: absolute;
     left: 5%;
-    bottom: 30%;
+    bottom: 40%;
     text-align: center;
     border-radius: 40px;
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
+#bottom {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#des {
+    position: absolute;
+    background-color:  #011f03fe;
+    border-radius: 40px;
+    text-align: center;
+    color: rgb(6, 255, 60);
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+    left: 20%;
+    right: 20%;
+    top: 90%;
+    padding: 50px;
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
