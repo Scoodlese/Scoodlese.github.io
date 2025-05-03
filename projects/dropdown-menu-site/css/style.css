@@ -7,7 +7,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
     background-image: url(../images/background.jpg);
-    height: 130vh;
+    height: 129vh;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -16,28 +16,41 @@ body {
     background: linear-gradient(to bottom, #10b82f,#066324);
     display: flex;
     align-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
     
 #navbar a {
     display: inline-block;
     text-decoration: none;
     color: white;
-    padding: 24px;
+    padding: 25px;
+    margin-right: 15px;
 }
     
 #navbar a:hover {
-    background: linear-gradient(to top, #39f30f,#278405);
+    background: linear-gradient(to top, #3078206c,#2e79136c);
+    border: dotted 2px;
+    border-left: none;
+    border-right: none;
+    border-radius: 20px;
+    padding: 23px;
+    margin-right: 15px;
 }
     
 #navbar #logo {
     margin-right: auto;
-    font-weight: bold;
-    font-size: 36px;
-    padding-top: 13px;
-    padding-bottom: 12px;
+    font-size: 30px;
     font-family: "Henny Penny", system-ui;
-    font-weight: 400;
     font-style: normal;
+}
+
+#logo {
+    margin-left: 15px;
+}
+
+#logo:hover {
+    margin-left: 17px;
 }
     
 .dropdown-container {
@@ -130,4 +143,8 @@ body {
     font-family: "Delius Swash Caps", cursive;
     font-weight: 400;
     font-style: normal;
+}
+
+#top {
+    border-top-right-radius: 20px;
 }
