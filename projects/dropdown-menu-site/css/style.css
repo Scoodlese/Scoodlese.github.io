@@ -197,3 +197,61 @@ body {
 #zib {
     height: 700px;
 }
+
+@media screen and (max-width: 670px) {
+
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar #logo {
+        margin-right: 0px;
+    }
+
+    #navbar .navwords  {
+        padding: 15px;
+    }
+
+    .herowords {
+        left: 35%;
+        bottom: 25%;
+        width: 55%;
+    }
+
+    .hero {
+        height: 50vh;
+        background-position: right 30%;
+    }
+
+    #des {
+        width: 55%;
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+
+    #layout .img {
+        width: 100%;
+    }
+
+    .herowords h2 {
+        font-size: 25px;
+    }
+
+    .herowords h3 {
+        font-size: 15px;
+    }
+    
+    .herowords h5 {
+        font-size: 10px;
+    }
+
+    .layout .description {
+        font-size: 25px;
+        width: 100%;
+        padding: 25px;
+    }
+
+    #zib {
+        height: 400px;
+    }
+}
