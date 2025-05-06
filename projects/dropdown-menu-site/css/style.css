@@ -95,14 +95,12 @@ body {
 
 .hero {
     background-image: url(../images/thumb-1920-352214.jpg);
-    background-size: cover;
-    background-position: center;
+    background-position: center 36%;
     height: 70vh;
-
 }
 
 .herowords {
-    font-size: 20px;
+    font-size: 15px;
     display: inline-block;
     background-color: #07560c6a;
     color: rgb(6, 255, 60);
@@ -115,6 +113,7 @@ body {
     font-family: "Delius Swash Caps", cursive;
     font-weight: 400;
     font-style: normal;
+    width: 40%;
 }
 
 #bottom {
@@ -155,8 +154,9 @@ body {
 }
 
 .layout {
-    margin-left: 520px;
-    margin-right: 550px;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 70px;
 }
 
@@ -169,7 +169,7 @@ body {
 }
 
 .img {
-    width: 600px;
+    width: 100%;
     border: 2px solid #4f7f3c;
     border-radius: 5px;
     padding: 15px;
@@ -192,8 +192,6 @@ body {
     font-style: normal;
     font-size: 30px;
     margin-top: 50px;
-    margin-left: -60px;
-    margin-right: -60px;
 }
 
 #zib {
