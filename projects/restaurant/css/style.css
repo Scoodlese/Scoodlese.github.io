@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Delius&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #39b54a, #93cc80);
+    border-bottom: 3px solid #82aa75;
+}
+
+#navbar .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     box-shadow: -4px 4px 12px #10be0a;
+}  
+
+#navbar a {
+    color: rgb(101, 209, 23);
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin-right: 280px;
+}
+
+#navbar #logo {
+    color: rgb(255, 255, 255);
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin-left: 100px;
+}
+
+#links a {
+    text-decoration: none;
+    color: white;
+}
