@@ -5,8 +5,11 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
-    height: 800px
+    font-family: "Delius", cursive;
+    background-image: url(../images/background4.jpg);
+    height: 140vh;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #navbar {
@@ -20,7 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: -4px 4px 12px #10be0a;
+    box-shadow: -4px 4px 12px #0a6207;
 }  
 
 #navbar a {
@@ -62,7 +65,7 @@ body {
     font-family: "Delius", cursive;
     font-weight: 400;
     font-style: normal;
-    margin-top: 825px;
+    margin-top: 140vh;
 }
 
 #footer a {
