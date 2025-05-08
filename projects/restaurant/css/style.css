@@ -80,3 +80,35 @@ body {
     justify-content: space-between;
 }
 
+#layout {
+    width: 800px;
+    border: solid 3px whitesmoke;
+    margin: 20px auto;
+    padding: 250px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 4px 4px 5px 5px #294328;
+}
+
+#layout {
+    width: 800px;
+    border-radius: 30px;
+}
+
+#layout img {
+    width: 500px;
+    border-radius: 20px;
+}
+
+#menu h1 {
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #39b54a;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 700px;
+    margin-right: 700px;
+}
