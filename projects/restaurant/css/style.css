@@ -93,6 +93,7 @@ body {
 #layout {
     width: 800px;
     border-radius: 30px;
+    height: 1250px;
 }
 
 #layout img {
@@ -218,9 +219,14 @@ body {
 
 .item {
     position: relative;
-    right: 200px;
-    bottom: 600px;
     text-align: center;
+    bottom: 580px;
+    background-color: #a0c095;
+    border-radius: 20px;
+    color: white;
 }
+
+
+
 
 
