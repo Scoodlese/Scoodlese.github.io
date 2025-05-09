@@ -7,7 +7,6 @@ body {
     margin: 0px;
     font-family: "Delius", cursive;
     background-image: url(../images/background4.jpg);
-    height: 140vh;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -15,7 +14,6 @@ body {
 #navbar {
     background: linear-gradient(to bottom, #39b54a, #93cc80);
     border-bottom: 3px solid #82aa75;
-    position: sticky;
     top: 0px;
 }
 
@@ -32,8 +30,10 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
-    margin-right: 140px;
     padding: 20px;
+    display: flex-box;
+    justify-content: space-between;
+    margin-right: 50px;
 }
 
 #navbar a:hover {
@@ -65,7 +65,6 @@ body {
     font-family: "Delius", cursive;
     font-weight: 400;
     font-style: normal;
-    margin-top: 140vh;
 }
 
 #footer a {
@@ -112,3 +111,43 @@ body {
     margin-left: 700px;
     margin-right: 700px;
 }
+
+#hero {
+    background-image: url("../images/hero.jpg");
+    height: 500px;
+    width: 800px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    right: 86%;
+    top: -253px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#hero h1 {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    font-size: 30px;
+    margin-bottom: 36px;
+    color: white;
+    text-align: center;
+    background-color: #39b54acb;
+    border-radius: 20px;
+    font-weight: 900;
+}
+
+#hero a {
+    font-size: 24px;
+    background-color:#0a6207d8;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    border-radius: 20px;
+    border: solid 2px #0a6207;
+    position: relative;
+    left: 57%;
+    top: 300px;
+}
+
