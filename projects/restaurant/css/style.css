@@ -82,9 +82,7 @@ body {
 #layout {
     border: solid 3px whitesmoke;
     margin: 2px auto;
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 250px;
+    padding: 250px;
     background-color: white;
     border-radius: 30px;
     box-shadow: 4px 4px 5px 5px #294328;
