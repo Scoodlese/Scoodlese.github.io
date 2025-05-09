@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Volkhov", serif;
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #004C54;
+    text-shadow: 4px 4px 10px #012a2e;
+}
+
+#header2 {
+    font-family: "Modak", system-ui;
+    font-style: normal;
+}
+
+#main-container {
+    background-image: url("../images/background\ image.jpg");
+    background-size: cover;
+    max-width: 1000px;
+    margin: 36px auto; 
+    text-align: center;
+    border: 6px solid #ffffff;
+    box-shadow: 20px 20px 20px #012a2e;
+}
+
+#header1 h6 {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+#header2 {
+    font-size: 40px;
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+}
+
+#header3 {
+    font-size: 35px;
+}
+
+#teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#eagles img {
+    height: 200px;
+    width: 300px;
+    background-color: #be444400;
+}
+
+#cowboys img {
+    height: 200px;
+    width: 220px;
+    background-color: #be444400;
+}
+
+
+#vs {
+    font-size: 40px;
+}
+
+#date {
+    font-size: 25px;
+    margin-top: 24px;
+}
+
+#location {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.buttons #rsvp {
+    background-color: #004C54;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 280px;
+    box-shadow: 20px 20px 20px #000000aa;
+    margin-left: 40px;
+}
+
+.buttons #no-rsvp {
+    background-color: #0a1e41;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 280px;
+    box-shadow: 20px 20px 20px #000000aa;
+    margin-right: 40px;
+}
+
+.buttons:hover {
+    transform: translatey(10px);
+}
+
+@media screen and (max-width: 763px) {
+    #teams {
+        flex-direction: column;
+    }
+    #
+    .buttons {
+        width: 100%;
+    }
+}
