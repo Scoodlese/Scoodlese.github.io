@@ -80,13 +80,14 @@ body {
 }
 
 #layout {
-    width: 800px;
     border: solid 3px whitesmoke;
-    margin: 20px auto;
+    margin: 2px auto;
     padding: 250px;
     background-color: white;
     border-radius: 30px;
     box-shadow: 4px 4px 5px 5px #294328;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 #layout {
@@ -123,6 +124,7 @@ body {
     top: -253px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    box-shadow: -4px 4px 12px #0a6207;
 }
 
 #hero h1 {
@@ -151,3 +153,22 @@ body {
     top: 300px;
 }
 
+#header {
+    font-family: "Covered By Your Grace", cursive;
+    color: #0a6207;
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    font-size: 40px;
+}
+
+#text {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    color: #0a6207;
+    bottom: 250px;
+    height: 100px;
+    margin-left: -90px;
+    margin-right: -100px;
+}
