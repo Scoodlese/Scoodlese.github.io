@@ -82,7 +82,9 @@ body {
 #layout {
     border: solid 3px whitesmoke;
     margin: 2px auto;
-    padding: 250px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 250px;
     background-color: white;
     border-radius: 30px;
     box-shadow: 4px 4px 5px 5px #294328;
@@ -93,7 +95,6 @@ body {
 #layout {
     width: 800px;
     border-radius: 30px;
-    height: 1250px;
 }
 
 #layout img {
@@ -220,13 +221,21 @@ body {
 .item {
     position: relative;
     text-align: center;
-    bottom: 580px;
-    background-color: #a0c095;
-    border-radius: 20px;
-    color: white;
+    bottom: 600px;
 }
 
+.item {
+    position: relative;
+    text-align: center;
+    bottom: 600px;
+}
 
-
-
-
+.item {
+    position: relative;
+    text-align: center;
+    bottom: 580px;
+    background-color: #a0c095;
+    padding: px;
+    color: white;
+    border-radius: 20px;
+}
