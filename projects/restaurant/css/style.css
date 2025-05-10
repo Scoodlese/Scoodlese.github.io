@@ -58,7 +58,7 @@ body {
     color: white;
 }
 
-#footer {
+.footer {
     background: linear-gradient(to bottom, #39b54a, #93cc80);
     color: white;
     padding: 12px;
@@ -67,12 +67,12 @@ body {
     font-style: normal;
 }
 
-#footer a {
+.footer a {
     text-decoration: none;
     color: white;
 }
 
-#footer-bar {
+.footer-bar {
     width: 800px;
     margin: 0px auto;
     display: flex;
@@ -179,17 +179,21 @@ body {
 }
 
 #image {
-    background-image: url("../images/goddesswrap.jpeg");
-    height: 370px;
+
+}
+
+#image img {
     width: 400px;
     background-size: cover;
     background-position: center center;
     position: relative;
     right: 70%;
-    top: -253px;
+    top: -210px;
     border-radius: 100%;
     box-shadow: -4px 4px 12px #0a6207;
 }
+
+
 
 #text2 {
     text-align: center;
@@ -232,8 +236,24 @@ body {
     position: relative;
     text-align: center;
     bottom: 580px;
-    background-color: #a0c095;
-    padding: px;
+    background-color: #39b54a;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     color: white;
     border-radius: 20px;
+    margin-bottom: 40px;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+#menu-content{
+    margin: 2px auto;
+    margin-top: 50px;
+    height: 1200px;
+}
+
+#layout #menu-content {
+    border-radius: 30px;
 }
