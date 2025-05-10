@@ -14,7 +14,6 @@ body {
 #navbar {
     background: linear-gradient(to bottom, #39b54a, #93cc80);
     border-bottom: 3px solid #82aa75;
-    top: 0px;
 }
 
 #navbar .content-column {
@@ -178,10 +177,6 @@ body {
     margin-top: 70px;
 }
 
-#image {
-
-}
-
 #image img {
     width: 400px;
     background-size: cover;
@@ -229,31 +224,33 @@ body {
 .item {
     position: relative;
     text-align: center;
-    bottom: 600px;
-}
-
-.item {
-    position: relative;
-    text-align: center;
-    bottom: 580px;
     background-color: #39b54a;
-    padding-left: 1px;
-    padding-right: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-top: 1px;
     padding-bottom: 1px;
     color: white;
     border-radius: 20px;
     margin-bottom: 40px;
-    margin-right: -20px;
-    margin-left: -20px;
+    margin-right: -80px;
+    margin-left: -80px;
+    margin-top: 90px;
 }
 
 #menu-content{
     margin: 2px auto;
     margin-top: 50px;
-    height: 1200px;
+    height: 1500px;
 }
 
 #layout #menu-content {
     border-radius: 30px;
+}
+
+.item h1 {
+    font-size: 30px;
+}
+
+.item h3 {
+    font-size: 20px;
 }
