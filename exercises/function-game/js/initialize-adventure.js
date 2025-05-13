@@ -89,23 +89,23 @@ function updatePlayer() {
   player.style.top = playerY*BLOCK_SIZE + 'px';
   player.style.left = playerX*BLOCK_SIZE + 'px';
   if (isPlayerAttacking()) {
-    player.src = 'images/ronin_side_attack_v2.png';
+    player.src = 'images/attack.png';
   } else {
     switch(playerDirection) {
       case UP:
-        player.src = 'images/ronin_back_v2.png';
+        player.src = 'images/back.png';
         break;
       case DOWN:
-        player.src = 'images/ronin_front_v2.png';
+        player.src = 'images/idle.png';
         player.classList.remove('face-left');
         break;
       case RIGHT:
-        player.src = 'images/ronin_side_v2.png';
+        player.src = 'images/RIGHT.png';
         player.classList.remove('face-left');
         break;
       case LEFT:
-        player.src = 'images/ronin_side_v2.png';
-        player.classList.add('face-left');
+        player.src = 'images/LEFT.png';
+        player.classList.add('face-right');
         break;
     }
   }
